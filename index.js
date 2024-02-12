@@ -8,7 +8,7 @@ var server = app.listen(PORT, function(){
     console.log('listening for requests on port,', PORT);
 });
 
-// Static files
+// Static files 
 app.use(express.static('public'));
 
 // Socket setup & pass server
